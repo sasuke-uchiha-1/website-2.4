@@ -41,16 +41,16 @@ const EventDetail = () => {
     },
     '2': {
       id: '2',
-      title: 'Tech Symposium 2024',
+      title: 'NSUTxThon',
       date: '2024-02-28',
       time: '9:00 AM - 5:00 PM',
       location: 'Conference Hall',
-      description: `The Tech Symposium 2024 is a premier technology event bringing together students, faculty, and industry experts to explore the latest innovations and breakthrough technologies shaping our future.
+      description: `NSUTxThon is a premier technology event bringing together students, faculty, and industry experts to explore the latest innovations and breakthrough technologies shaping our future.
 
       This symposium features keynote speeches from renowned tech leaders, interactive workshops on emerging technologies, and networking opportunities with industry professionals. Participants will gain insights into AI, machine learning, blockchain, and other cutting-edge technologies.
 
       Join us for a day of learning, innovation, and inspiration as we explore the technological landscape of tomorrow.`,
-      image: 'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://crosslinksnsut.vercel.app/img/gallery4.jpg',
       attendees: 300,
       status: 'upcoming',
       organizers: ['Tech Committee', 'Computer Science Department', 'Crosslinks Media'],
@@ -63,7 +63,7 @@ const EventDetail = () => {
         'Career guidance sessions'
       ],
       gallery: [
-        'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=400',
+        'https://crosslinksnsut.vercel.app/img/gallery4.jpg',
         'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/2422280/pexels-photo-2422280.jpeg?auto=compress&cs=tinysrgb&w=400'
@@ -80,7 +80,7 @@ const EventDetail = () => {
       This event provides an opportunity for current students to interact with successful alumni, gain career insights, and build valuable professional networks. Alumni will share their experiences, success stories, and provide guidance to the next generation.
 
       Join us for an evening of nostalgia, networking, and celebration as we honor our alumni's contributions to society.`,
-      image: 'https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://crosslinksnsut.vercel.app/img/gallery5.jpg',
       attendees: 200,
       status: 'upcoming',
       organizers: ['Alumni Committee', 'Student Affairs', 'Crosslinks Media'],
@@ -93,7 +93,7 @@ const EventDetail = () => {
         'Cultural performances by current students'
       ],
       gallery: [
-        'https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=400',
+        'https://crosslinksnsut.vercel.app/img/gallery5.jpg',
         'https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/1181233/pexels-photo-1181233.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/933255/pexels-photo-933255.jpeg?auto=compress&cs=tinysrgb&w=400'

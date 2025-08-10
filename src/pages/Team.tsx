@@ -16,7 +16,7 @@ const Team = () => {
   const teamMembers = [
     {
       id: 1,
-      name: 'Arjun Sharma',
+      name: 'Mithilesh Korochikar',
       role: 'President',
       department: 'core',
       image: 'https://crosslinksnsut.vercel.app/img/mithilesh.png',
@@ -31,7 +31,22 @@ const Team = () => {
     },
     {
       id: 2,
-      name: 'Priya Patel',
+      name: 'Udita Jarodia',
+      role: 'Media President',
+      department: 'core',
+      image: 'https://crosslinksnsut.vercel.app/img/udita.jpg',
+      bio: 'Leading media operations and strategic communications for Crosslinks.',
+      funFact: 'Transformed our media presence and engagement across all platforms!',
+      social: {
+        linkedin: '#',
+        instagram: '#',
+        email: 'media.president@crosslinks.com'
+      },
+      skills: ['Media Strategy', 'Communications', 'Team Leadership']
+    },
+    {
+      id: 3,
+      name: 'Akshant Bhamu',
       role: 'Vice President',
       department: 'core',
       image: 'https://crosslinksnsut.vercel.app/img/akshath.png',
@@ -45,85 +60,100 @@ const Team = () => {
       skills: ['Operations', 'Team Management', 'Communication']
     },
     {
-      id: 3,
-      name: 'Vikram Kumar',
-      role: 'Photography Lead',
-      department: 'photography',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Passionate about capturing life\'s beautiful moments through the lens.',
-      funFact: 'Has photographed over 100 events in the past year!',
-      social: {
-        linkedin: '#',
-        instagram: '#',
-        email: 'photo@crosslinks.com'
-      },
-      skills: ['Portrait Photography', 'Event Coverage', 'Photo Editing']
-    },
-    {
       id: 4,
-      name: 'Ananya Raj',
-      role: 'Videography Head',
-      department: 'videography',
-      image: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Storyteller through moving pictures, creating cinematic experiences.',
-      funFact: 'Can edit a 10-minute video in under 2 hours!',
+      name: 'Gauri Bhardwaj',
+      role: 'Vice President',
+      department: 'core',
+      image: 'https://crosslinksnsut.vercel.app/img/gauri.jpg',
+      bio: 'Supporting the vision and managing day-to-day operations.',
+      funFact: 'Joined as a photographer and now leads the entire organization!',
       social: {
         linkedin: '#',
         instagram: '#',
-        email: 'video@crosslinks.com'
+        email: 'vp2@crosslinks.com'
       },
-      skills: ['Cinematography', 'Video Editing', 'Motion Graphics']
+      skills: ['Operations', 'Team Management', 'Communication']
     },
     {
       id: 5,
-      name: 'Rahul Gupta',
-      role: 'Content Design Lead',
+      name: 'Aryan Khudlain',
+      role: 'Managing Editor',
       department: 'content',
-      image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Crafting compelling narratives that bring our visual stories to life.',
-      funFact: 'Has written over 200 articles for the university magazine!',
+      image: 'https://crosslinksnsut.vercel.app/img/aryan.jpg',
+      bio: 'Managing editorial content and ensuring quality storytelling across all platforms.',
+      funFact: 'Has edited over 150 articles and managed content for major events!',
       social: {
         linkedin: '#',
         instagram: '#',
-        email: 'content@crosslinks.com'
+        email: 'editor@crosslinks.com'
       },
-      skills: ['Creative Writing', 'Social Media', 'Content Strategy']
+      skills: ['Editorial Management', 'Content Strategy', 'Quality Control']
     },
     {
       id: 6,
-      name: 'Kiran Mehta',
-      role: 'Tech Lead',
-      department: 'tech',
-      image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Managing our digital presence and technical infrastructure.',
-      funFact: 'Built the entire Crosslinks website from scratch!',
+      name: 'Sneha Vats',
+      role: 'Managing Editor',
+      department: 'content',
+      image: 'https://crosslinksnsut.vercel.app/img/sneha.jpg',
+      bio: 'Managing editorial content and ensuring quality storytelling across all platforms.',
+      funFact: 'Has edited over 150 articles and managed content for major events!',
       social: {
         linkedin: '#',
         instagram: '#',
-        email: 'tech@crosslinks.com'
+        email: 'editor2@crosslinks.com'
       },
-      skills: ['Web Development', 'Database Management', 'System Administration']
+      skills: ['Editorial Management', 'Content Strategy', 'Quality Control']
+    },
+    {
+      id: 7,
+      name: 'Abhinav Kumar',
+      role: 'Managing Editor',
+      department: 'content',
+      image: 'https://crosslinksnsut.vercel.app/img/abhinav.png',
+      bio: 'Managing editorial content and ensuring quality storytelling across all platforms.',
+      funFact: 'Has edited over 150 articles and managed content for major events!',
+      social: {
+        linkedin: '#',
+        instagram: '#',
+        email: 'editor3@crosslinks.com'
+      },
+      skills: ['Editorial Management', 'Content Strategy', 'Quality Control']
+    },
+    {
+      id: 8,
+      name: 'Prisha Priya',
+      role: 'Managing Editor',
+      department: 'content',
+      image: 'https://crosslinksnsut.vercel.app/img/prisha.png',
+      bio: 'Managing editorial content and ensuring quality storytelling across all platforms.',
+      funFact: 'Has edited over 150 articles and managed content for major events!',
+      social: {
+        linkedin: '#',
+        instagram: '#',
+        email: 'editor4@crosslinks.com'
+      },
+      skills: ['Editorial Management', 'Content Strategy', 'Quality Control']
     }
   ];
 
   const testimonials = [
     {
-      name: 'Arjun Sharma',
+      name: 'Mithilesh Korochikar',
       role: 'President',
       quote: 'Joining Crosslinks was the best decision of my college life. It helped me grow both personally and professionally.',
       image: 'https://crosslinksnsut.vercel.app/img/mithilesh.png'
     },
     {
-      name: 'Priya Patel',
-      role: 'Vice President',
-      quote: 'The skills I learned at Crosslinks directly helped me develop leadership qualities. Forever grateful!',
-      image: 'https://crosslinksnsut.vercel.app/img/akshath.png'
+      name: 'Udita Jarodia',
+      role: 'Media President',
+      quote: 'The skills I learned at Crosslinks directly helped me develop media leadership qualities. Forever grateful!',
+      image: 'https://crosslinksnsut.vercel.app/img/udita.jpg'
     },
     {
-      name: 'Vikram Kumar',
-      role: 'Photography Lead',
-      quote: 'Crosslinks gave me the platform to showcase my photography skills and connect with amazing people.',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150'
+      name: 'Aryan Khudlain',
+      role: 'Managing Editor',
+      quote: 'Crosslinks gave me the platform to showcase my editorial skills and connect with amazing people.',
+      image: 'https://crosslinksnsut.vercel.app/img/aryan.jpg'
     }
   ];
 

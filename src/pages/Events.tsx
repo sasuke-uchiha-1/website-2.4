@@ -27,13 +27,13 @@ const Events = () => {
     },
     {
       id: '2',
-      title: 'Tech Symposium 2024',
+      title: 'NSUTxThon',
       date: '2024-02-28',
       time: '9:00 AM',
       location: 'Conference Hall',
       category: 'upcoming',
       featured: false,
-      image: 'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://crosslinksnsut.vercel.app/img/gallery4.jpg',
       description: 'A gathering of tech enthusiasts showcasing innovations and breakthrough technologies.',
       attendees: 300,
       status: 'upcoming'
@@ -46,7 +46,7 @@ const Events = () => {
       location: 'Alumni Hall',
       category: 'upcoming',
       featured: false,
-      image: 'https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://crosslinksnsut.vercel.app/img/gallery5.jpg',
       description: 'Reconnecting with our graduated students and celebrating their achievements.',
       attendees: 200,
       status: 'upcoming'
