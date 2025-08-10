@@ -24,7 +24,11 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Camera className="h-8 w-8 text-green" />
+              <img 
+                src="https://crosslinksnsut.vercel.app/img/logo.png" 
+                alt="Crosslinks Logo" 
+                className="h-8 w-8 object-contain"
+              />
               <span className="font-bold text-xl">Crosslinks</span>
             </div>
             <p className="text-gray-300">
